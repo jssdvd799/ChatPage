@@ -1,0 +1,156 @@
+:root {
+  --bluePrimary: #01bcf5;
+  --chatText: #cc3cf8;
+  --violetSecondary: hsl(315, 73%, 48%);
+  --violetThird: rgb(187, 115, 255);
+  --blueGradient: rgb(115, 0, 223);
+  --white: #ffffff;
+  font-size: 13px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.barra{
+    background-clip: #ffffff;
+    background-origin: border-box;
+    text-align: center;
+    border-radius: 12px;
+    color: #ffffff;
+    
+}
+
+.chat_container {
+  background: linear-gradient(to right,var(--blueGradient) 10%,var(--violetThird) 90%);
+  border-radius: 20px;
+  text-align: left;
+}
+.chat_back{
+    padding: 1px;
+}
+.chat_left{
+    text-align: left;
+    padding: 5px;
+}
+.chat_right{
+    text-align: right;
+    padding: 5px;
+}
+.chat_text {
+  text-align: center;
+}
+
+.chat_header {
+  color: var(--white);
+  text-align: center;
+}
+
+.chat_image {
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  width: 75px;
+  height: 75px;
+}
+
+.message_01 {
+  background: #f1f1f1;
+  border-radius: 24px;
+  padding: 2em 2em;
+  margin: 2em;
+  color: var(--chatText);
+  font-weight: 100;
+}
+
+.imaqe {
+  display: none;
+  border: 10px solid rgb(12, 12, 3);
+  float: left;
+  padding-left: 30px;
+}
+
+.column {
+  border: 20px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 3px 0px 12px 0px #cecbcb;
+}
+.chat_body {
+  padding: 10%;
+  color: #858181;
+  display: inline-flex;
+  background-color: #f5f5f5;
+}
+
+.chat_name {
+  font-size: 2em;
+}
+
+.chat_status {
+  font-size: 1em;
+  color: linear-gradient(
+    to right,
+    var(--blueGradient) 10%,
+    var(--violetThird) 90%
+  );
+}
+
+h1 {
+  padding-top: 20%;
+  font-size: 4em;
+  line-height: 1.0;
+  text-align: left;
+  color: rgb(73, 0, 73);
+}
+
+p {
+  color: #cecbcb;
+  font-size: 2em;
+  font-weight: 100;
+  text-align: left;
+  padding: 10px;
+}
+
+.message_type{
+  background-color: var(--white);
+  border-radius: 10px;
+  text-align: center;
+  background: #f1f1f1;
+  border-radius: 24px;
+  padding: 2em 2em;
+  margin: 2em;
+  font-weight: 100;
+}
+.text_container {
+  
+}
+
+img{
+  border-style: none;
+  max-width: 100%;
+  height: 50px;
+  width: 50px;
+} 
+
+h2{
+  background-color: red;
+  display: inline-block;
+  padding: 10px 50px;
+  height: 100px;
+  width: 100px;
+  box-sizing: content-box;
+}
+
+p{
+
+}
